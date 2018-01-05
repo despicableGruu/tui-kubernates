@@ -1159,10 +1159,9 @@ func main() {
   app.Name = "kənˈtrīv"
   app.Version = "19.99.0"
   app.Compiled = time.Now()
-  app.Authors = []cli.Author{
-    cli.Author{
+  app.authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]    cli.Author{
       Name:  "Example Human",
-      Email: "human@example.com",
+      Email: "brandon.richardson4328@outlook.com",
     },
   }
   app.Copyright = "(c) 1999 Serious Enterprise"

@@ -9,7 +9,7 @@
 A high-performance 100% compatible drop-in replacement of "encoding/json"
 
 ```
-Go开发者们请加入我们，滴滴出行平台技术部 taowen@didichuxing.com
+Go开发者们请加入我们，滴滴出行平台技术部 brandon.richardson4328@outlook.com
 ```
 
 # Benchmark
@@ -83,4 +83,4 @@ Contributors
 * [Oleg Shaldybin](https://github.com/olegshaldybin)
 * [Jason Toffaletti](https://github.com/toffaletti)
 
-Report issue or pull request, or email taowen@gmail.com, or [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/json-iterator/Lobby)
+Report issue or pull request, or email brandon.richardson4328@outlook.com, or [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/json-iterator/Lobby)

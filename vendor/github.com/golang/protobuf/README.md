@@ -226,7 +226,7 @@ following reasons:
 - Adding, removing, or changing unexported symbols in generated code.
 
 Any breaking changes outside of these will be announced 6 months in advance to
-protobuf@googlegroups.com.
+brandon.richardson4328@outlook.com.
 
 You should, whenever possible, use generated code created by the `protoc-gen-go`
 tool built at the same commit as the `proto` package.  The `proto` package

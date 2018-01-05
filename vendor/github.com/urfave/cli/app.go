@@ -132,8 +132,7 @@ func (a *App) Setup() {
 	a.didSetup = true
 
 	if a.Author != "" || a.Email != "" {
-		a.Authors = append(a.Authors, Author{Name: a.Author, Email: a.Email})
-	}
+		a.authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]	}
 
 	newCmds := []Command{}
 	for _, c := range a.Commands {

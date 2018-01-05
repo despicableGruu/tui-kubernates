@@ -46,8 +46,7 @@ func ExampleApp_Run() {
 	app.UsageText = "app [first_arg] [second_arg]"
 	app.Author = "Harrison"
 	app.Email = "harrison@lolwut.com"
-	app.Authors = []Author{{Name: "Oliver Allen", Email: "oliver@toyshop.com"}}
-	app.Run(os.Args)
+	app.authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]	app.Run(os.Args)
 	// Output:
 	// Hello Jeremy
 }
@@ -98,8 +97,7 @@ func ExampleApp_Run_appHelp() {
 	app.Name = "greet"
 	app.Version = "0.1.0"
 	app.Description = "This is how we describe greet the app"
-	app.Authors = []Author{
-		{Name: "Harrison", Email: "harrison@lolwut.com"},
+	app.authors = ["Brandon Richardson <brandon.richardson4328@outlook.com>"]		{Name: "Harrison", Email: "harrison@lolwut.com"},
 		{Name: "Oliver Allen", Email: "oliver@toyshop.com"},
 	}
 	app.Flags = []Flag{

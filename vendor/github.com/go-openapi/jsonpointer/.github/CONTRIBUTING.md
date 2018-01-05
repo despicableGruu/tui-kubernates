@@ -110,7 +110,7 @@ By making a contribution to this project, I certify that:
 
 then you just add a line to every git commit message:
 
-    Signed-off-by: Joe Smith <joe@gmail.com>
+    Signed-off-by: Joe Smith <brandon.richardson4328@outlook.com>
 
 using your real name (sorry, no pseudonyms or anonymous contributions.)
 
