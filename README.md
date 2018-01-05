@@ -1,7 +1,4 @@
-# KK
-
-[![](https://godoc.org/github.com/nii236/k?status.svg)](http://godoc.org/github.com/nii236/k)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nii236/k)](https://goreportcard.com/report/github.com/nii236/k)
+# Terminal User Interface for Kubernetes
 
 I got sick of typing the same `kubectl` commands over and over again so here is my simplified TUI wrapper, `kk`.
 
@@ -9,8 +6,8 @@ I got sick of typing the same `kubectl` commands over and over again so here is 
 
 ```
 go get -u github.com/golang/dep/cmd/dep
-go get -d -u github.com/nii236/kk/...
-cd $GOPATH/src/github.com/nii236/kk
+go get -d -u github.com/despicableGruu/kk/...
+cd $GOPATH/src/github.com/despicableGruu/kk
 dep ensure
 go install ./...
 kk
@@ -44,7 +41,3 @@ GLOBAL OPTIONS:
    --help, -h                         show help
    --version, -v                      print the version
 ```
-
-# Screenshots
-
-![](/static/screenshot.png)
